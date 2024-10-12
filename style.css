@@ -1,0 +1,118 @@
+@font-face {
+    font-family: young;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: outfit;
+}
+.container{
+    margin: 15px;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.simple-explation{
+    margin: 15px 0;
+}
+.simple-explation .main-title{
+    font-family: young;
+    margin: 15px 0;
+
+}
+.simple-explation .descreption{
+    color: #555;
+}
+.preparation-time{
+    background-color: #fff7fc;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.preparation-time .title{
+    color: #6c2543;
+    margin: 15px 0;
+}
+.preparation-time ul{
+    color:#555;
+    margin-left: 15px;
+}
+.preparation-time ul li span{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.preparation-time ul li::marker{
+    color: #6c2543;
+}
+.title{
+    font-family: young;
+    color: #814634;
+    margin: 15px 0;
+}
+.ingredients{
+    margin: 15px 0;
+}
+.ingredients ul{
+    margin-left: 15px;
+    color: #555;
+}
+.ingredients ul li{
+    padding-left:15px ;
+}
+.ingredients ul li::marker{
+    color: #814634;
+}
+hr{
+    border: none;
+    border-top: 0.5px solid #aaa;
+    margin: 15px 0;
+}
+.instructions{
+    margin: 15px 0;
+}
+.instructions ol{
+    margin-left: 15px;
+    color: #555;
+}
+.instructions ol span{
+    font-weight: bold;
+    color: #555;
+}
+.instructions ol li{
+    padding-left:15px ;
+}
+.instructions ol li::marker{
+    color: #814634;
+}
+.nutrition{
+    margin: 15px 0;
+}
+.nutrition p{
+    color: #555;
+}
+table{
+    width: 100%;
+    margin: 15px 0;
+}
+td:nth-of-type(even){
+    color: #814634;
+    font-weight: bold;
+}
+td:nth-of-type(odd){
+    color: #555;
+}
+table,tr ,td{
+    border-bottom: 1px solid #555;
+    border-collapse: collapse;
+    padding: 15px 0;
+}
